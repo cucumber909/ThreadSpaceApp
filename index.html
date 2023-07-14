@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <form id="registrationForm">
+    <h2>Register to ThreadSpace</h2>
+    
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="8" maxlength="32" required>
+    
+    <label for="captcha">Security Check: </label>
+    <div id="captcha"></div>
+    <input type="text" id="captchaInput" required>
+    
+    <input type="submit" value="Register">
+  </form>
+
+  <script src="register.js"></script>
+</body>
+</html>
+<p>Уже зарегистрированы? <a href="login.html">Войти</a></p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Зарегистрироваться в ThreadSpace</title>
+</head>
+<body>
+    <!-- содержимое страницы -->
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="styles.css">
+  <title>ThreadSpace - Login</title>
+  <script>
+    // Вставьте JavaScript-код здесь
+    window.addEventListener('DOMContentLoaded', (event) => {
+      var userAgent = navigator.userAgent.toLowerCase();
+
+      // Проверяем, является ли устройство мобильным
+      var isMobile = /iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(userAgent);
+
+      // Применяем разные стили в зависимости от типа устройства
+      if (isMobile) {
+        // Мобильное устройство
+        document.body.classList.add('mobile');
+      } else {
+        // Десктопное устройство
+        document.body.classList.add('desktop');
+      }
+    });
+  </script>
+</head>
+<body>
+  <!-- Ваше содержимое страницы -->
+</body>
+</html>
+
+
+

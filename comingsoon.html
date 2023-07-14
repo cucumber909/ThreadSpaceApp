@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="styles.css">
+  <title>ThreadSpace - Coming Soon</title>
+</head>
+<body>
+  <div id="usernameDisplay" style="position: absolute; top: 10px; right: 50px;"></div>
+  <button id="themeButton" style="position: absolute; top: 10px; right: 10px;">🌙</button>
+  <button id="changePasswordButton" style="position: absolute; top: 50px; right: 10px;">Change Password</button>
+  <button id="logoutButton" style="position: absolute; top: 90px; right: 10px;">Выйти</button>
+  
+  <h2>ThreadSpace...</h2>
+
+  <form id="postForm">
+    <textarea id="postText" placeholder="Что у вас нового?"></textarea>
+    <button type="submit">Опубликовать</button>
+  </form>
+
+  <div id="posts"></div>
+
+  <script src="comingsoon.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="styles.css">
+  <title>ThreadSpace - Login</title>
+  <script>
+    // Вставьте JavaScript-код здесь
+    window.addEventListener('DOMContentLoaded', (event) => {
+      var userAgent = navigator.userAgent.toLowerCase();
+
+      // Проверяем, является ли устройство мобильным
+      var isMobile = /iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(userAgent);
+
+      // Применяем разные стили в зависимости от типа устройства
+      if (isMobile) {
+        // Мобильное устройство
+        document.body.classList.add('mobile');
+      } else {
+        // Десктопное устройство
+        document.body.classList.add('desktop');
+      }
+    });
+  </script>
+</head>
+<body>
+  <!-- Ваше содержимое страницы -->
+</body>
+</html>

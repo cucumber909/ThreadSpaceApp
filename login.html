@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Войти в Thread Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login to ThreadSpace</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
+<p>Еще не зарегистрированы? <a href="index.html">Создать аккаунт</a></p>
+<!DOCTYPE html>
+<html>
+<head>
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="styles.css">
+  <title>ThreadSpace - Login</title>
+  <script>
+    // Вставьте JavaScript-код здесь
+    window.addEventListener('DOMContentLoaded', (event) => {
+      var userAgent = navigator.userAgent.toLowerCase();
+
+      // Проверяем, является ли устройство мобильным
+      var isMobile = /iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(userAgent);
+
+      // Применяем разные стили в зависимости от типа устройства
+      if (isMobile) {
+        // Мобильное устройство
+        document.body.classList.add('mobile');
+      } else {
+        // Десктопное устройство
+        document.body.classList.add('desktop');
+      }
+    });
+  </script>
+</head>
+<body>
+  <!-- Ваше содержимое страницы -->
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  background-color: white;
+  color: darkslategray;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightblue;
+  color: darkslategray;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: deepskyblue;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightblue;
+  color: darkslategray;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+#captcha {
+  font-size: 20px;
+  color: darkblue;
+}
+
+#postForm {
+    margin: 20px 0;
+}
+
+#postForm textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+#postForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#postForm button:hover {
+    background-color: #0056b3;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+#posts > div {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#posts > div button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#posts > div button:hover {
+    background-color: #0056b3;
+}
+
+#posts > div button.delete {
+  background-color: red;
+  color: white;
+}
+
+#posts > div button.delete:hover {
+  background-color: darkred;
+}
+#posts > div {
+    word-wrap: break-word;
+}
+/* Стили для мобильного устройства */
+body.mobile {
+  /* Ваши стили для мобильного устройства */
+}
+
+/* Стили для десктопного устройства */
+body.desktop {
+  /* Ваши стили для десктопного устройства */
+}

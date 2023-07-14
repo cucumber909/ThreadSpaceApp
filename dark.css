@@ -1,0 +1,125 @@
+body {
+  background-color: #111;
+  color: #007BFF;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #007BFF;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#captcha {
+  font-size: 20px;
+  color: #007BFF;
+}
+
+#postForm {
+    margin: 20px 0;
+}
+
+#postForm textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #007BFF;
+}
+
+#postForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#postForm button:hover {
+    background-color: #0056b3;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+#posts > div {
+    background-color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #007BFF;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#posts > div button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#posts > div button.delete {
+    background-color: red;
+    color: white;
+}
+
+#posts > div button.delete:hover {
+    background-color: darkred;
+}
+
+#posts > div button:hover {
+    background-color: #0056b3;
+}
+/* Стили для мобильного устройства */
+body.mobile {
+  /* Ваши стили для мобильного устройства */
+}
+
+/* Стили для десктопного устройства */
+body.desktop {
+  /* Ваши стили для десктопного устройства */
+}
